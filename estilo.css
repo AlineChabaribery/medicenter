@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 40px;
+    position: relative;
+    right: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 990px;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-2 {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.active a,
+a:hover {
+    background-color: #39aae1;
+    color: white;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: #727272;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#banner {
+    background-image: url('https://quanticalabs.com/wp_themes/medicenter/files/revslider/home/slider_01.jpg');
+    height: 670px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 240px;
+    position: relative;
+}
+
+.container_headline {
+    position: absolute;
+    top: 100px;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 0px 1px 0 #555;
+}
+
+.texto_banner {
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 1px 0 #555;
+    line-height: 30px;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    height: 210px;
+    width: 300px;
+    padding: 15px;
+}
+
+.banner1 {
+    background-color: #39aae1;
+}
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.container_options {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.banner_titulo {
+    color: white;
+    font-size: 20px;
+}
+
+.banner_texto {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    top: 20px;
+}
+
+button {
+    background: transparent;
+    color: white;
+    padding: 5px;
+    border: solid 2px #fff;
+    position: relative;
+    top: 40px;
+}
+
+.banner_texto1 {
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+.banner_texto1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.linha {
+    width: 270px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.linha_banner {
+    width: 1000px;
+    height: 1px;
+    background-color: white;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+}
+
+.widget_title_text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.wiget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+article .news_data {
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+
+article .news_posted_at {
+    background-color: #2b4c99;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_comments {
+    background-color: #39aae1;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news_thumbnail {
+    position: relative;
+    top: 60px;
+}
+
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 23px;
+    color: #000;
+}
+
+article .news_resume {
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 5px;
+}
+
+
+/* .widget_body {
+    width: 436px;
+} */
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.footer_menu {
+    display: flex;
+    width: 100%;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+    height: 100px;
+}
+
+.fm_1 {
+    background-color: #39aae1;
+}
+
+.fm_2 {
+    background-color: #0079c7;
+}
+
+.fm_3 {
+    background-color: #2b4c99;
+}
+
+.footer_menu {
+    display: flex;
+    color: #fff;
+}
+
+.flexcolumn {
+    flex-direction: column;
+}
+
+.footer_area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_areaitem {
+    /* flex: 1; */
+    color: #fff;
+}
+
+footer .widget_title_text {
+    color: #fff;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
